@@ -146,6 +146,7 @@ body {
 	border-radius: 3px;
 	font-family: inherit;
 	transition: background .1s linear;
+	margin-top: 25px;
 }
 
 .btn--red {
@@ -157,6 +158,9 @@ body {
 	background-color: #dd3434;
 }
 
+.btn--long {
+	min-width: 280px;
+}
 
 
 /*FEATURES*/
@@ -302,4 +306,151 @@ body {
 	line-height: 1.5;
 	color: #6c7279;
 	margin-bottom: 20px;
+}
+
+
+/* Download */
+
+.download {
+	margin: 90px 0;
+	text-align: center;
+
+}
+
+.download__title {
+	font-size: 28px;
+	color: #272a2c;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.download__text {
+	
+	font-size: 14px;
+	color: #2d353d;
+	margin-bottom: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+
+
+/* Social */
+
+.social {
+    display: flex;
+}
+
+.social--footer {
+    justify-content: center;
+}
+
+.social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+
+    background-color: #fff;
+    border: 1px solid #e8ecee;
+
+    transition: background .1s linear;
+}
+
+.social__item:hover {
+    background-color: #e8ecee;
+}
+
+.social__item:hover .social__icon {
+    fill: black;
+}
+
+.social--footer .social__item {
+    background: none;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 2px;
+}
+
+.social--footer .social__item:hover {
+    background-color: white;
+}
+
+.social__icon {
+    display: block;
+    height: 18px;
+
+    fill: #c6cacc;
+
+    transition: fill .1s linear;
+}
+
+.social--footer .social__icon {
+    fill: white;
+}
+
+
+/* Footer */
+
+.footer {
+	
+	background-color: #3e3a64;
+}
+
+.footer__inner {
+	display: flex;
+	padding: 70px 0;
+	flex-wrap: wrap;
+
+}
+
+.footer__block {
+	width: 33.33333%;
+	text-align: center;
+	padding: 0 15px;
+}
+
+.footer__title {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.footer__adress {
+	color: rgba(255, 255, 255, .5);
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.5;
+	
+}
+
+.footer__text {
+	color: rgba(255, 255, 255, .5);
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+
+/* Copyright */
+
+.copyright {
+	background-color: #313454;
+	padding: 20px 0;
+
+}
+
+.copyright__text {
+	text-align: center;
+	font-size: 14px;
+	color: #808080;
+	line-height: 1.5;
+
+}
+
+.copyright__text span {
+	color: white;
 }
